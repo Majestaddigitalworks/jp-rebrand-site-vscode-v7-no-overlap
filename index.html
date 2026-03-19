@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JP Re-Brand | Artist-Led Creative Direction</title>
+  <meta name="description" content="Artist-led creative direction for branding, visuals, rollout, and digital presence." />
+  <meta name="theme-color" content="#08101d" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-noise" aria-hidden="true"></div>
+  <div class="site-shell">
+    <header class="topbar" id="top">
+      <a class="brand" href="#top" aria-label="JP Re-Brand home">
+        <img src="assets/logo-main.png" alt="JP Re-Brand logo" />
+        <div>
+          <strong>JP Re-Brand</strong>
+          <span data-i18n="brandTag">Artist-led creative company</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="es">ES</button>
+          <button class="lang-btn" data-lang="ja">日本語</button>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <nav class="nav" id="navMenu">
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#work" data-i18n="navWork">Work</a>
+        <a href="#team" data-i18n="navTeam">Creative Team</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <a class="btn btn-small btn-nav" href="#contact" data-i18n="navCta">Start a Project</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="heroEyebrow">Artist-led creative direction</p>
+          <h1 data-i18n="heroTitle">Branding, visuals, rollout, and digital presence with real creative direction.</h1>
+          <p class="lead" data-i18n="heroLead">We help artists, founders, and culture-driven brands build identity, shape perception, and launch with clarity.</p>
+          <div class="hero-actions-row">
+            <a class="btn btn-primary" href="#work" data-i18n="heroPrimary">View Work</a>
+            <a class="btn btn-secondary" href="#contact" data-i18n="heroSecondary">Start a Project</a>
+          </div>
+          <ul class="hero-proof" aria-label="Business strengths">
+            <li data-i18n="proof1">Artist-Led</li>
+            <li data-i18n="proof2">Multi-Disciplinary</li>
+            <li data-i18n="proof3">Premium Direction</li>
+            <li data-i18n="proof4">Culture-Rooted</li>
+          </ul>
+        </div>
+
+        <div class="hero-art reveal" aria-label="JP Re-Brand main logo presentation">
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <img class="hero-logo hero-logo-solo" src="assets/logo-main.png" alt="JP Re-Brand main logo" />
+        </div>
+      </section>
+
+      <section class="section stats reveal">
+        <article class="stat-card card-panel">
+          <span class="stat-kicker" data-i18n="stat1Kicker">Built by creatives</span>
+          <p data-i18n="stat1Text">Not a corporation trying to study creativity from the outside.</p>
+        </article>
+        <article class="stat-card card-panel">
+          <span class="stat-kicker" data-i18n="stat2Kicker">Sharper positioning</span>
+          <p data-i18n="stat2Text">Identity, visuals, music, and rollout aligned under one premium system.</p>
+        </article>
+        <article class="stat-card card-panel">
+          <span class="stat-kicker" data-i18n="stat3Kicker">Global-ready</span>
+          <p data-i18n="stat3Text">English, Spanish, and Japanese support for a broader creative reach.</p>
+        </article>
+        <article class="stat-card card-panel">
+          <span class="stat-kicker" data-i18n="stat4Kicker">Ready to scale</span>
+          <p data-i18n="stat4Text">Structured to support artists, campaigns, merch, visuals, and future partners.</p>
+        </article>
+      </section>
+
+      <section class="section section-split reveal" id="about">
+        <div class="section-heading left-align">
+          <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
+          <h2 data-i18n="aboutTitle">A creative company built from living the work.</h2>
+          <p data-i18n="aboutText1">JP Re-Brand is a premium artist-led company focused on branding, visual direction, music-centered creative, rollout strategy, and digital presence.</p>
+          <p data-i18n="aboutText2">We do more than make things look polished. We help shape how your project is seen, felt, and remembered so the presentation matches the level of your vision.</p>
+          <p data-i18n="aboutText3">The goal is simple: create a brand world that feels elevated, functional, and unmistakably yours.</p>
+        </div>
+        <div class="about-visual card-panel spotlight">
+          <img src="assets/jaep-portrait.jpg" alt="Jae-P portrait" />
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="servicesEyebrow">Services</p>
+          <h2 data-i18n="servicesTitle">Focused offers. No clutter. No overlap.</h2>
+          <p data-i18n="servicesLead">Each service bucket solves a real part of your brand or launch ecosystem.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card card-panel reveal">
+            <img src="assets/visual-identity.jpg" alt="Brand identity" />
+            <div>
+              <h3 data-i18n="service1Title">Brand Identity</h3>
+              <p data-i18n="service1Text">Logos, visual systems, tone, and foundational direction that give your brand real shape.</p>
+            </div>
+          </article>
+          <article class="service-card card-panel reveal">
+            <img src="assets/creative-direction.jpg" alt="Creative direction" />
+            <div>
+              <h3 data-i18n="service2Title">Creative Direction</h3>
+              <p data-i18n="service2Text">Visual and conceptual leadership for campaigns, releases, brand refreshes, and content ecosystems.</p>
+            </div>
+          </article>
+          <article class="service-card card-panel reveal">
+            <img src="assets/team-marketing.jpg" alt="Visual content" />
+            <div>
+              <h3 data-i18n="service3Title">Visual Content</h3>
+              <p data-i18n="service3Text">Cover art, promo graphics, social visuals, ad assets, and marketing pieces with consistency.</p>
+            </div>
+          </article>
+          <article class="service-card card-panel reveal">
+            <img src="assets/music-production.jpg" alt="Music production" />
+            <div>
+              <h3 data-i18n="service4Title">Music Production</h3>
+              <p data-i18n="service4Text">Creative development, sonic direction, and artist-facing support for projects that need cohesive energy.</p>
+            </div>
+          </article>
+          <article class="service-card card-panel reveal">
+            <img src="assets/studio-sessions.jpg" alt="Marketing and rollout" />
+            <div>
+              <h3 data-i18n="service5Title">Marketing &amp; Rollout</h3>
+              <p data-i18n="service5Text">Campaign planning, launch structure, asset mapping, and audience-facing content flow.</p>
+            </div>
+          </article>
+          <article class="service-card card-panel reveal">
+            <img src="assets/our-winning-network.jpg" alt="Web and digital assets" />
+            <div>
+              <h3 data-i18n="service6Title">Web &amp; Digital Assets</h3>
+              <p data-i18n="service6Text">Responsive sites and polished digital experiences that support trust, growth, and conversion.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="workEyebrow">Featured work</p>
+          <h2 data-i18n="workTitle">Real images. Better showcase. Stronger premium feel.</h2>
+          <p data-i18n="workLead">Your uploaded visuals are now used with more intention so the site feels closer to a true launch.</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card tall reveal">
+            <img src="assets/album-resurreccion-full.jpg" alt="Resurreccion campaign" />
+            <div class="portfolio-info">
+              <span data-i18n="portfolio1Kicker">Catalog legacy</span>
+              <h3 data-i18n="portfolio1Title">Artist identity and release presentation</h3>
+              <p data-i18n="portfolio1Text">Use this area to frame bigger projects, artist eras, campaign systems, and visual storytelling.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal">
+            <img src="assets/album-esperanza.jpg" alt="Esperanza art" />
+            <div class="portfolio-info">
+              <span data-i18n="portfolio2Kicker">Single artwork</span>
+              <h3 data-i18n="portfolio2Title">Cover art and streaming rollout</h3>
+              <p data-i18n="portfolio2Text">Perfect for singles, launch sets, distribution visuals, and music-centered branding.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal">
+            <img src="assets/portfolio-art1.jpg" alt="Brand art" />
+            <div class="portfolio-info">
+              <span data-i18n="portfolio3Kicker">Creative visuals</span>
+              <h3 data-i18n="portfolio3Title">Campaign-ready graphic storytelling</h3>
+              <p data-i18n="portfolio3Text">Highlight custom art, posters, merch graphics, or promo content that needs impact.</p>
+            </div>
+          </article>
+          <article class="portfolio-card wide reveal">
+            <img src="assets/editorial-landscape.png" alt="Editorial visual" />
+            <div class="portfolio-info">
+              <span data-i18n="portfolio4Kicker">Brand campaigns</span>
+              <h3 data-i18n="portfolio4Title">Visual identity made to sell the vision</h3>
+              <p data-i18n="portfolio4Text">Use this for rebrands, launch packages, ad creatives, lookbooks, or presentation decks.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal">
+            <img src="assets/perdoname-ama.jpg" alt="Perdoname Ama single art" />
+            <div class="portfolio-info">
+              <span data-i18n="portfolio5Kicker">Music visuals</span>
+              <h3 data-i18n="portfolio5Title">Release assets with character</h3>
+              <p data-i18n="portfolio5Text">Show how the image, mood, and message all align before the song even plays.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal">
+            <img src="assets/team-marketing-vertical.jpg" alt="Creative team work" />
+            <div class="portfolio-info">
+              <span data-i18n="portfolio6Kicker">Collaboration</span>
+              <h3 data-i18n="portfolio6Title">Behind-the-scenes strategy and content planning</h3>
+              <p data-i18n="portfolio6Text">Position the business as a working creative partner, not just a logo shop.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section team-section" id="team">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="teamEyebrow">Creative Team</p>
+          <h2 data-i18n="teamTitle">Click on a team member to view their full profile, portfolio, and connect with them.</h2>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card card-panel reveal" data-member="wicho" tabindex="0">
+            <div class="team-photo bw"><img src="assets/team-losmonos.jpg" alt="Los Monos del Wicho" /></div>
+            <div class="team-copy">
+              <p class="team-kicker" data-i18n="teamMember1Name">Los Monos del Wicho</p>
+              <h3 data-i18n="teamMember1Role">Art Creator / Graphic Designer</h3>
+              <p data-i18n="teamMember1Bio">Visual artist specializing in urban art, album covers, and brand identity design with a unique Chicano street art aesthetic.</p>
+              <ul class="tag-list">
+                <li data-i18n="teamMember1Tag1">Visual Design</li>
+                <li data-i18n="teamMember1Tag2">Branding</li>
+              </ul>
+              <button class="profile-link" type="button" data-i18n="viewProfile">View Profile</button>
+            </div>
+          </article>
+
+          <article class="team-card card-panel reveal" data-member="jaep" tabindex="0">
+            <div class="team-photo"><img src="assets/team-jaep.jpg" alt="Jae-P" /></div>
+            <div class="team-copy">
+              <p class="team-kicker" data-i18n="teamMember2Name">Jae-P</p>
+              <h3 data-i18n="teamMember2Role">Founder / CEO / Executive Producer</h3>
+              <p data-i18n="teamMember2Bio">RIAA Gold &amp; Platinum recording artist, music publisher, mentor, and visual director with 20+ years in the industry.</p>
+              <ul class="tag-list">
+                <li data-i18n="teamMember2Tag1">Music</li>
+                <li data-i18n="teamMember2Tag2">Publishing</li>
+                <li data-i18n="teamMember2Tag3">Mentor</li>
+              </ul>
+              <button class="profile-link" type="button" data-i18n="viewProfile">View Profile</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section founder-section reveal">
+        <div class="founder-copy">
+          <p class="eyebrow" data-i18n="founderEyebrow">Founder perspective</p>
+          <h2 data-i18n="founderTitle">Built from experience, not theory.</h2>
+          <p data-i18n="founderText1">This is not surface-level branding. This is creative work shaped by real artistic experience, storytelling instinct, and the discipline to present projects at a higher level.</p>
+          <p data-i18n="founderText2">The difference is not just visual. It is emotional, strategic, and cultural. That is what gives the brand its weight.</p>
+        </div>
+        <div class="founder-mark card-panel">
+          <img src="assets/logo-main.png" alt="JP Re-Brand mark" />
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="contact-panel reveal">
+          <div class="section-heading left-align compact">
+            <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+            <h2 data-i18n="contactTitle">Let’s build something that actually represents you.</h2>
+            <p data-i18n="contactLead">Use the project form below. It creates a ready-to-send inquiry you can paste into email fast, even before your final backend is connected.</p>
+          </div>
+
+          <div class="contact-layout">
+            <form id="projectForm" class="project-form card-panel">
+              <div class="field-grid">
+                <label>
+                  <span data-i18n="fieldName">Name</span>
+                  <input type="text" id="name" required placeholder="Your name" />
+                </label>
+                <label>
+                  <span data-i18n="fieldEmail">Email</span>
+                  <input type="email" id="email" required placeholder="name@example.com" />
+                </label>
+                <label>
+                  <span data-i18n="fieldProjectType">Project Type</span>
+                  <select id="projectType">
+                    <option data-i18n="optionBranding">Branding</option>
+                    <option data-i18n="optionMusic">Music Release</option>
+                    <option data-i18n="optionVisuals">Visual Content</option>
+                    <option data-i18n="optionWebsite">Website</option>
+                    <option data-i18n="optionFull">Full Creative Rollout</option>
+                  </select>
+                </label>
+                <label>
+                  <span data-i18n="fieldBudget">Budget Range</span>
+                  <select id="budget">
+                    <option>$500 - $1,500</option>
+                    <option>$1,500 - $3,500</option>
+                    <option>$3,500 - $7,500</option>
+                    <option>$7,500+</option>
+                  </select>
+                </label>
+              </div>
+
+              <label>
+                <span data-i18n="fieldTimeline">Timeline</span>
+                <input type="text" id="timeline" placeholder="Example: need this in 3 weeks" />
+              </label>
+
+              <label>
+                <span data-i18n="fieldDetails">Project Details</span>
+                <textarea id="details" rows="5" placeholder="Tell us what you want to build."></textarea>
+              </label>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit" data-i18n="formPrimary">Generate Inquiry</button>
+                <button class="btn btn-secondary" type="button" id="copyInquiry" data-i18n="formSecondary">Copy Summary</button>
+              </div>
+            </form>
+
+            <aside class="inquiry-preview card-panel">
+              <p class="mini-label" data-i18n="previewLabel">Inquiry Preview</p>
+              <pre id="previewText" data-i18n="previewText">Fill out the form and your project inquiry summary will appear here.</pre>
+              <div class="contact-meta">
+                <div>
+                  <span data-i18n="metaEmailLabel">Email</span>
+                  <a href="mailto:hello@jprebrand.com">hello@jprebrand.com</a>
+                </div>
+                <div>
+                  <span data-i18n="metaLocationLabel">Base</span>
+                  <strong data-i18n="metaLocation">California, USA</strong>
+                </div>
+                <div>
+                  <span data-i18n="metaLanguageLabel">Languages</span>
+                  <strong data-i18n="metaLanguages">English / Español / 日本語</strong>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>JP Re-Brand</strong>
+        <p data-i18n="footerText">Artist-led creative direction for brands, releases, visuals, and digital presence.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#work" data-i18n="navWork">Work</a>
+        <a href="#team" data-i18n="navTeam">Creative Team</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </div>
+    </footer>
+  </div>
+
+  <div class="team-modal" id="teamModal" aria-hidden="true">
+    <div class="team-modal-backdrop" data-close="true"></div>
+    <div class="team-modal-panel glass-panel" role="dialog" aria-modal="true" aria-labelledby="teamModalTitle">
+      <button class="team-modal-close" id="teamModalClose" aria-label="Close">×</button>
+      <div class="team-modal-grid">
+        <div class="team-modal-image"><img id="teamModalImage" src="assets/team-jaep.jpg" alt="Team member" /></div>
+        <div>
+          <p class="team-kicker" id="teamModalName">Jae-P</p>
+          <h2 id="teamModalTitle">Founder / CEO / Executive Producer</h2>
+          <p class="modal-role" id="teamModalRole"></p>
+          <p id="teamModalText"></p>
+          <ul class="tag-list" id="teamModalTags"></ul>
+          <div class="modal-gallery" id="teamModalGallery"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
